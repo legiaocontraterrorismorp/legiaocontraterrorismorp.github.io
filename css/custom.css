@@ -242,12 +242,16 @@ p{
     margin-top: 8rem !important;
 }
 
+.lct-topspacebig-padding{
+    padding-top: 8rem !important;
+}
+
 .lct-opacity-5{
     opacity: 0.5;
 }
 
 .lct-center{
-    margin: 0 auto;
+    margin: 0 auto !important;
 }
 
 .lct-topspacesmall{
@@ -304,8 +308,65 @@ p{
     margin-right: 1.2rem;
     word-spacing: -0.2rem;
 }
+
 .lct-guns a:hover{
     color: #FFC81A;
+}
+
+.lct-soldier{
+    height: 50vh;
+}
+
+.lct-soldier-box{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end
+}
+
+.lct-soldier-mini-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lct-geral-warning{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lct-update{
+    font-family: 'TitilliumWeb', sans-serif !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 4rem;
+}
+
+.lct-events{
+    padding: 1.5rem;
+}
+
+.lct-events{
+    padding: 1.5rem;
+}
+
+.lct-events-boxes div:nth-child(2){
+    margin-left: 1.5rem !important;
+    margin-right: 1.5rem !important;
+}
+
+.lct-events-mini-box{
+    flex: 1;
+}
+
+@media (min-width: 768px){
+
+    .col-md-soldiers{
+        flex: 0 0 auto;
+        width: 20%;
+    }
+
 }
 
 .lct-cw{
